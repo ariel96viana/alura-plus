@@ -3,6 +3,7 @@
   --cinza-secundario: #c0c0c0;
 
   --botao-azul: #167bf7;
+  --botao-azul-efeito: #3c92fa;
 
   --cor-de-fundo: #00030c;
 
@@ -45,6 +46,10 @@ body {
   color: var(--branco-principal);
   display: block;
   margin-bottom: 1em;
+}
+
+.container__botao:hover {
+  transform: scale(1.03);
 }
 
 .botao_secundario {
@@ -142,6 +147,14 @@ body {
   text-decoration: none;
   color: var(--branco-principal);
   font-size: 16px;
+}
+
+.lista__link a:hover {
+  color: var(--botao-azul);
+}
+
+.lista__link a:active {
+  color: purple;
 }
 
 .rodape__texto {
